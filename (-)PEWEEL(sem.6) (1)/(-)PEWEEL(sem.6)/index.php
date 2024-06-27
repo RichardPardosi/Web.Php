@@ -18,6 +18,7 @@ include "koneksi.php";
         <a href="keranjang.php">Keranjang</a>
         <a href="#Produk">Produk</a>
         <a href="index.php">Beranda</a>
+        <a href="login.php">Login</a>
       </div>
       <div class="main">
         <p>Some text some text some text some text...</p>
@@ -46,9 +47,10 @@ include "koneksi.php";
         </section>
       </main>
       <div class="badan" id="Produk">
-      <input type="text" placeholder="Cari Sesuatu..." class="search">
-        <h2><center>Produk Baru</center></h2>
-        
+      
+        <h2><center>Katalog Produk</center></h2>
+        <input type="text" placeholder="Cari Produk..." class="search">
+        <br>
         <div class="list-produk">
             <img src="assets/joyko.jpg">
             <h4>Pulpen Joyko</h4>
