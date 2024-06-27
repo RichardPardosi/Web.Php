@@ -55,20 +55,6 @@ nav ul {
   flex-direction: column;
 }
 
-.navbar input[type=text] {
-  float: left;
-  padding: 6px;
-  width: 220px;
-  border-radius: 8px;
-  margin-top: 5px;
-  margin-left: 890px;
-  font-size: 17px;
-}
-
-.navbar input {
-  font-style: italic;
-}
-
 .main {
   margin-top: 30px;
 }
@@ -93,6 +79,21 @@ position: fixed;
     padding: 20px;
     overflow: hidden;
 }
+
+.badan input[type=text] {
+  float: left;
+  padding: 6px;
+  width: 220px;
+  border-radius: 8px;
+  margin-top: 5px;
+  margin-left: 890px;
+  font-size: 17px;
+}
+
+.badan input {
+  font-style: italic;
+}
+
 .badan2
 {
     width: 1160px;

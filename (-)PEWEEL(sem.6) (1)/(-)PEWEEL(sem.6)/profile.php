@@ -1,3 +1,10 @@
+<?php
+session_start();
+include "koneksi.php";
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,9 +13,9 @@
   </head>
     <body>
       <div class="navbar">
-        <a href="kontak.html">Kontak</a>
-        <a href="keranjang.html">Keranjang</a>
-        <a href="index.html">Beranda</a>
+        <a href="kontak.php">Kontak</a>
+        <a href="keranjang.php">Keranjang</a>
+        <a href="index.php">Beranda</a>
       </div>
      <main class="content">
         <section class="hero">
