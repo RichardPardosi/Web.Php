@@ -16,9 +16,10 @@ include "koneksi.php";
 <body>
   <div class="navbar">
     <img class="logo" src="assets/logo.png">
+        <a href="logout.php">Logout</a>
         <a href="kontak.php">Kontak</a>
         <a href="keranjang.php">Keranjang</a>
-        <a href="dashboard.php #Produk">Produk</a>
+        <a href="#Produk">Produk</a>
         <a href="dashboard.php">Beranda</a>
   </div>
       <br>
