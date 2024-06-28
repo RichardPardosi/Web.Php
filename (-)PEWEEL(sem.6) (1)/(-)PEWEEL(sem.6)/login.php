@@ -14,7 +14,7 @@ include "koneksi.php";
 </head>
 <body class="body2">
     <br>
-	<h1><center>Selamat Datang, Silahkan Login.</center></h1>
+	<h1><center>Selamat Datang, Silahkan Login!</center></h1>
 
 	<div class="kotak_login">
 		<form>
@@ -29,7 +29,7 @@ include "koneksi.php";
 			<br/>
 			<br/>
 			<center>
-				<a class="link" href="index.php">kembali</a>
+				<a class="link" href="index.php">KEMBALI</a>
 			</center>
 		</form>
 	</div>
