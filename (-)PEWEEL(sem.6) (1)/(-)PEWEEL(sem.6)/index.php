@@ -8,7 +8,7 @@ include "koneksi.php";
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login</title>
+	<title>Login Customer</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body class="bodylg">

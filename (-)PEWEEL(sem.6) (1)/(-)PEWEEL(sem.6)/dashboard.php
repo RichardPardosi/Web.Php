@@ -48,7 +48,7 @@ if (empty($_SESSION["username"])){
             </p>
             <a href="profile.php" class="action-btn">Profile Toko</a>
             <marquee>
-              <h2>Lengkapi Kebutuhan Alat Tulismu Sekarang!</h2>
+              <h2 class="h2">Lengkapi Kebutuhan Alat Tulismu Sekarang!</h2>
             </marquee>
             <br /><br />
           </div>

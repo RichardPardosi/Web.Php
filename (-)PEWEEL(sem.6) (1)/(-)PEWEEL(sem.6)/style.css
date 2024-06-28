@@ -79,6 +79,11 @@ padding: 10px;
 position: fixed;
 }
 
+.h2{
+  text-align: center;
+  right: 50px;
+}
+
 .badan
 {
     width: 1160px;
