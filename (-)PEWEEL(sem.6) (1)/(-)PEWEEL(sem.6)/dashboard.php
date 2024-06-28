@@ -2,7 +2,7 @@
 session_start();
 
 if (empty($_SESSION["username"])){
-  echo "<script>alert('Anda haruswefkwof.')</script>";
+  echo "<script>alert('Anda Harus Login .')</script>";
   echo "<script>window.location='login.php';</script>";
 
 }
@@ -29,7 +29,7 @@ if (empty($_SESSION["username"])){
         <a href="dashboard.php">Beranda</a>
       </div>
       <div class="main">
-        <p>Some text some text some text some text...</p>
+        <p>.</p>
       </div>
     </br>
     </br>
