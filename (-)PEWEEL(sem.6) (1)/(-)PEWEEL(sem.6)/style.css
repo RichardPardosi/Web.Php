@@ -5,13 +5,21 @@ body {
   padding: 0;
 }
 
+body.bodylg {
+  background-image: url('assets/bglg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
 :root {
   --bg-primary: rgb(255, 248, 222);
-  --bg-secondry: rgb(153, 169, 143);
+  --bg-secondry: rgb(255, 255, 255);
   --bg-thirdry: rgb(193, 208, 181);
 }
 
 body {
+  background-image: url('assets/bglg.jpg');
   background-color: #ffffff;
   font-family: sans-serif;
 }
@@ -61,6 +69,7 @@ nav ul {
 
 .component-button a{
   text-decoration: none;
+  
 }
 
 .logo{
@@ -364,30 +373,6 @@ footer p {
   width: 200px;
   float: right;
 }
-.ig {
-  width: 90px;
-  height: 90px;
-  margin-left: 80px;
-  margin-right: 50px;
-}
-.fb {
-  width: 90px;
-  height: 90px;
-  margin-left: 80px;
-  margin-right: 50px;
-}
-.x {
-  width: 90px;
-  height: 90px;
-  margin-left: 80px;
-  margin-right: 50px;
-}
-.tele {
-  width: 90px;
-  height: 90px;
-  margin-left: 80px;
-  margin-right: 50px;
-}
 
 .hero h1 {
   font-size: 3em;
@@ -407,17 +392,14 @@ footer ul {
 footer ul li a img {
   width: 20%;
 }
-.tulisan_login{
-	text-align: center;
-	text-transform: uppercase;
-}
 
 .kotak_login{
 	width: 350px;
+  height: 420px;
 	background: white;
 	margin: 80px auto;
 	padding: 30px 20px;
-  border-radius: 30px;
+  border-radius: 25px;
 }
 
 label{
@@ -430,7 +412,7 @@ label{
 	padding: 10px;
 	font-size: 11pt;
 	margin-bottom: 20px;
-  	font-style: italic;
+  font-style: italic;
 }
 
 .tombol_login{
@@ -449,3 +431,61 @@ label{
 	text-decoration: none;
 	font-size: 10pt;
 }
+
+footer {
+  background: #000000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.footer-content h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+.footer-content p {
+  margin: 10px 0 20px;
+  font-size: 16px;
+  color: #ccc;
+}
+
+.footer-content p:nth-of-type(2) { 
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.socials {
+  list-style: none;
+  padding-bottom: 15px;
+}
+
+.socials li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer-bottom {
+  background: #2c2c2c;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.footer-bottom span {
+  color: red;
+}
+

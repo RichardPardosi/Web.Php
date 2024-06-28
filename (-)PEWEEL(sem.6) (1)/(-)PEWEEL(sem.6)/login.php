@@ -8,13 +8,12 @@ include "koneksi.php";
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="style.css" />
 	<title>Login</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body class="body2">
+<body class="bodylg">
     <br>
-	<h1><center>Selamat Datang, Silahkan Login!</center></h1>
+	<h2><center>Selamat Datang, Silahkan Login.</center></h2>
 
 	<div class="kotak_login">
 		<form>
@@ -29,7 +28,7 @@ include "koneksi.php";
 			<br/>
 			<br/>
 			<center>
-				<a class="link" href="index.php">KEMBALI</a>
+				<a class="link" href="index.php">Kembali</a>
 			</center>
 		</form>
 	</div>

@@ -9,6 +9,9 @@ include "koneksi.php";
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
     <title>Web | Toko ATK BKM</title>
   </head>
     <body>
@@ -38,7 +41,7 @@ include "koneksi.php";
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aperiam dolore assumenda velit repellendus recusandae magni consectetur mollitia facere incidunt inventore perspiciatis debitis doloribus ullam minima culpa
               voluptatem. Repellendus, option.
             </p>
-            <a href="profile.html" class="action-btn">Profile Toko</a>
+            <a href="profile.php" class="action-btn">Profile Toko</a>
             <marquee>
               <h2>Lengkapi Kebutuhan Alat Tulismu Sekarang!</h2>
             </marquee>
@@ -132,22 +135,22 @@ include "koneksi.php";
         </div>
       </div>
       <br>
-      <div class="footer">
-        <footer>
-          <ul>
-            <li>
-              <img src="assets/instagram.png" class="ig" /><a><p>Instagram</p></a>
-            </li>
-            <li>
-              <img src="assets/facebook.png" class="fb" /><a><p>Facebook</p></a>
-            </li>
-            <li>
-              <img src="assets/twitter.png" class="x" /><a><p>Twitter</p></a>
-            </li>
-            <li>
-              <img src="assets/telegram.png" class="tele" /><a><p>Telegram</p></a>
-            </li>
-          </ul>
+      <footer>
+        <div class="footer-content">
+            <h3>Web E-Commerce Toko ATK (Alat Tulis Kantor) BKM</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <br>
+            <br>
+            <ul class="socials">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024.kelompokpwl | Dibuat dengan <span>❤</span> oleh Tim Kami</p>
+        </div>
         </footer>
       </div>
     </div>

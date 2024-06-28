@@ -1,12 +1,16 @@
-<?php
-// Koneksi Database
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "dbtokoatk";
-$koneksi = mysqli_connect($servername, $username, $password, $dbname);
+<?php 
 
-if (!$koneksi) {
-    die("Connection failed: " . mysqli_connect_error());
-}
+$host = "localhost"; 
+$username = "root"; 
+$password = ""; 
+$database = "dbtokoatk"; 
+
+$conn = new mysqli($host, $username, $password, $database); 
+
+if ($conn->connect_error) { 
+
+ die("Koneksi gagal: " . $conn->connect_error); 
+
+} 
+
 ?>
