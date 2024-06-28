@@ -17,7 +17,7 @@ include "koneksi.php";
         <a href="logout.php">Logout</a>
         <a href="kontak.php">Kontak</a>
         <a href="keranjang.php">Keranjang</a>
-        <a href="#Produk">Produk</a>
+        <a href="dashboard.php #Produk">Produk</a>
         <a href="dashboard.php">Beranda</a>
       </div>
       <div class="badan2">
