@@ -149,6 +149,29 @@ else{
           <a class="tombol tombol-beli" href="#">Beli</a>
         </div>
       </div>
+      <div class="contact-section" id="contact">
+        <div class="contact-container">
+            <div class="card-container">
+                <div class="left">
+                    <div class="left-container">
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="right-container">
+                        <h2 class="lg-view">Contact us</h2>
+                        <form action="">
+                            <input type="text" placeholder="Nama">
+                            <input type="email" placeholder="Email">
+                            <input type="text" placeholder="Destination" autocomplete=" off">
+                            <input type="phone" placeholder="Telp" autocomplete="off">
+                            <textarea rows="10" placeholder="chat"></textarea>
+                            <button>Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
       <br>
       <footer>
         <div class="footer-content">
