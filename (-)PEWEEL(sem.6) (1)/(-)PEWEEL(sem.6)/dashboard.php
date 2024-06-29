@@ -70,7 +70,7 @@ if (empty($_SESSION["username"])){
         <div class="list-produk">
             <img src="assets/gp.jpg">
             <h4>Gel Pen Joyko</h4>
-            <h5>Rp 5.000,-</h5>
+            <h5>Rp 4.000,-</h5>
             <a class="tombol tombol-detail" href="#">Detail</a> 
             <a class="tombol tombol-beli" href="#">Beli</a>
         </div>
@@ -86,7 +86,7 @@ if (empty($_SESSION["username"])){
         <div class="list-produk">
           <img src="assets/fc.png">
           <h4>Faber-Castell 2B</h4>
-          <h5>Rp 15,000,--</h5>
+          <h5>Rp 4,000,--</h5>
           <a class="tombol tombol-detail" href="#">Detail</a> 
           <a class="tombol tombol-beli" href="#">Beli</a>
         </div>
@@ -94,7 +94,7 @@ if (empty($_SESSION["username"])){
         <div class="list-produk">
           <img src="assets/fcp.png">
           <h4>Faber-Castell Eraser</h4>
-          <h5>Rp 5.000,-</h5>
+          <h5>Rp 3.000,-</h5>
           <a class="tombol tombol-detail" href="#">Detail</a> 
           <a class="tombol tombol-beli" href="#">Beli</a>
         </div>
@@ -118,7 +118,7 @@ if (empty($_SESSION["username"])){
         <div class="list-produk">
           <img src="assets/bk.jpeg">
           <h4>Campus Book</h4>
-          <h5>Rp 5.000,-</h5>
+          <h5>Rp 2.000,-</h5>
           <a class="tombol tombol-detail" href="#">Detail</a> 
           <a class="tombol tombol-beli" href="#">Beli</a>
         </div>
@@ -126,7 +126,7 @@ if (empty($_SESSION["username"])){
         <div class="list-produk">
           <img src="assets/a4.jpg">
           <h4>Plain Paper A4</h4>
-          <h5>Rp 5.000,-</h5>
+          <h5>Rp 45.000,-</h5>
           <a class="tombol tombol-detail" href="#">Detail</a> 
           <a class="tombol tombol-beli" href="#">Beli</a>
         </div>
@@ -134,7 +134,7 @@ if (empty($_SESSION["username"])){
         <div class="list-produk">
           <img src="assets/kp.jpg">
           <h4>Photo Paper a4</h4>
-          <h5>Rp 5.000,-</h5>
+          <h5>Rp 35.000,-</h5>
           <a class="tombol tombol-detail" href="#">Detail</a> 
           <a class="tombol tombol-beli" href="#">Beli</a>
         </div>
