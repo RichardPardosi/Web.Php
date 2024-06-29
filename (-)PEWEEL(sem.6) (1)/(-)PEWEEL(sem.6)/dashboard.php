@@ -5,8 +5,17 @@ if (empty($_SESSION["username"])){
   echo "<script>alert('Anda Harus Login .')</script>";
   echo "<script>window.location='login.php';</script>";
 
+if(isset($_POST['tombolcari'])){
+  $cari = $_POST['cari'];
+  $tampil = mysqli_query($koneksi, "SELECT * FROM dataproduk WHERE namaproduk='$cari'");  
+
 }
 
+else{
+  $tampil = mysqli_query($koneksi, "SELECT * FROM dataproduk");
+
+}
+}
 
 ?>
 
@@ -58,6 +67,7 @@ if (empty($_SESSION["username"])){
       
         <h2><center>Katalog Produk</center></h2>
         <input type="text" placeholder="Cari Produk..." class="search">
+        <button class="button" type="submit" name="tombolcari">Cari</button>
         <br>
         <div class="list-produk">
             <img src="assets/joyko.jpg">
