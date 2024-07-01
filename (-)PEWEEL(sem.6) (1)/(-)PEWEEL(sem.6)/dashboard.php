@@ -175,7 +175,7 @@ else{
       <footer>
         <div class="footer-content">
             <h3>Web E-Commerce Toko ATK (Alat Tulis Kantor) BKM</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Perumahan Bukit KayuManis, RT 05/12, Kec. Tanah Sereal, kel. Kayumanis, Kota Bogor, Jawa Barat</p>
             <br>
             <br>
             <ul class="socials">
