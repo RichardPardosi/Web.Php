@@ -1,5 +1,6 @@
 <?php
 session_start();
+include "koneksi.php";
 
 if (empty($_SESSION["username"])){
   echo "<script>alert('Anda Harus Login .')</script>";
@@ -162,8 +163,6 @@ else{
                         <form action="">
                             <input type="text" placeholder="Nama">
                             <input type="email" placeholder="Email">
-                            <input type="text" placeholder="Destination" autocomplete=" off">
-                            <input type="phone" placeholder="Telp" autocomplete="off">
                             <textarea rows="10" placeholder="chat"></textarea>
                             <button>Submit</button>
                         </form>

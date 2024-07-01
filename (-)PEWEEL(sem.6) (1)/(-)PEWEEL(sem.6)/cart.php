@@ -48,12 +48,16 @@ if (isset($_GET['action']) && $_GET['action'] == 'remove' && isset($_GET['id']) 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
 </head>
 <body>
     <div class="navbar">
         <img class="logo" src="assets/logo.png">
         <a href="logout.php">Logout</a>
-        <a href="kontak.php #contact">Kontak</a>
+        <a href="dashboard.php #contact">Kontak</a>
         <a href="cart.php">Keranjang</a>
         <a href="dashboard.php #Produk">Produk</a>
         <a href="dashboard.php">Beranda</a>
@@ -88,9 +92,31 @@ if (isset($_GET['action']) && $_GET['action'] == 'remove' && isset($_GET['id']) 
             </tr>
         </table>
         <br>
-        <a href="dashboard.php #Produk">Continue Shopping</a>
+        <a class="tombol tombol-beli" href="dashboard.php #Produk">Continue Shopping</a>
     <?php else: ?>
-        <p>Your cart is empty. <a href="dashboard.php #Produk">Go back to shopping</a>.</p>
+        <p>Your cart is empty...</p>
+        <a href=></a><a class="tombol tombol-beli" href="dashboard.php #Produk">Go back to shopping</a>
     <?php endif; ?>
+    <br><br>
+    <br><br>
+    <footer>
+        <div class="footer-content">
+            <h3>Web E-Commerce Toko ATK (Alat Tulis Kantor) BKM</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <br>
+            <br>
+            <ul class="socials">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024.kelompokpwl | Dibuat dengan <span>❤</span> oleh Tim Kami</p>
+        </div>
+        </footer>
+      </div>
+    </div>
 </body>
 </html>

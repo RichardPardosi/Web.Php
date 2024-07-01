@@ -484,10 +484,11 @@ label{
 }
 
 .left .left-container {
-  height: 50%;
-  width: 80%;
+  height: 93%;
+  width: 95%;
   text-align: center;
   line-height: 22px;
+  background-image: url('assets/logo.png');
 }
 
 .left-container p {
