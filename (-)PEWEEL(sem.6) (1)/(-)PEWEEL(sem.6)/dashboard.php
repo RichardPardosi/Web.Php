@@ -49,9 +49,9 @@ else{
         <section class="container2">
           <div class="slider-wrapper">
             <div class="slider">
-              <img id="slide-1" src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1719792000&semt=ais_user"
+              <img id="slide-1" src="assets/1.png"
               alt="3D wallpaper"/>
-              <img id="slide-2" src="https://img.freepik.com/premium-photo/lake-pier-with-mountains-background_1033303-296.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699660800&semt=ais"
+              <img id="slide-2" src="assets/2.png"
               alt="3D wallpaper"/>
             </div>
             <div class="slider-nav">
