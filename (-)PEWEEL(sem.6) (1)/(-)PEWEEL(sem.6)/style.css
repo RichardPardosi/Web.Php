@@ -444,6 +444,7 @@ label{
   height: 120vh;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(to bottom, #fff, #306ff7, #306ff7);
 }
 
 .contact-container {
@@ -478,17 +479,17 @@ label{
 .left {
   display: flex;
   flex: 1;
-  height: 200px;
-  width: 400px;
+  height: 420px;
   justify-content: center;
   align-items: center;
+  background-image: url(assets/logo.png);
 }
 
 .left .left-container {
-  height: 500px;
-  width: 500px;
+  height: 50%;
+  width: 80%;
   text-align: center;
-  background-image: url('assets/logo.png');
+  line-height: 22px;
 }
 
 .left-container p {

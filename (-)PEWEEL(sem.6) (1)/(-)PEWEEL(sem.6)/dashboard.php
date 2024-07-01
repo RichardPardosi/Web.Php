@@ -23,7 +23,7 @@ else{
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
@@ -163,6 +163,7 @@ else{
                         <form action="">
                             <input type="text" placeholder="Nama">
                             <input type="email" placeholder="Email">
+                            <input type="phone" placeholder="Telp" autocomplete="off">
                             <textarea rows="10" placeholder="chat"></textarea>
                             <button>Submit</button>
                         </form>
