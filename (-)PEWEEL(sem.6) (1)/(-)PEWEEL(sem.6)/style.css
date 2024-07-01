@@ -465,7 +465,6 @@ label{
 .card-container .left {
   flex: 1;
   height: 420px;
-  background-color: #253ed1;
 }
 
 .card-container .right {
@@ -482,7 +481,7 @@ label{
   height: 200px;
   justify-content: center;
   align-items: center;
-  background-image: url(assets/);
+  background-image: url(assets/logo.png);
 }
 
 .left .left-container {
