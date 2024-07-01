@@ -481,7 +481,6 @@ label{
   height: 200px;
   justify-content: center;
   align-items: center;
-  background-image: url(assets/logo.png);
 }
 
 .left .left-container {
@@ -489,6 +488,7 @@ label{
   width: 80%;
   text-align: center;
   line-height: 22px;
+  background-color: #f2ff00;
 }
 
 .left-container p {
