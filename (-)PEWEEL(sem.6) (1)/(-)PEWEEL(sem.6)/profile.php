@@ -16,7 +16,7 @@ include "koneksi.php";
       <img class="logo" src="assets/logo.png">
         <a href="logout.php">Logout</a>
         <a href="dashboard.php #contact">Kontak</a>
-        <a href="keranjang.php">Keranjang</a>
+        <a href="cart.php">Keranjang</a>
         <a href="dashboard.php #Produk">Produk</a>
         <a href="dashboard.php">Beranda</a>
       </div>

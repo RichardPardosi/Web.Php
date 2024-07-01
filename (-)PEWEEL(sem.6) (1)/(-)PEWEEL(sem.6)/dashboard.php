@@ -33,7 +33,7 @@ else{
         <img class="logo" src="assets/logo.png">
         <a href="logout.php">Logout</a>
         <a href="dashboard.php #contact">Kontak</a>
-        <a href="keranjang.php">Keranjang</a>
+        <a href="cart.php">Keranjang</a>
         <a href="dashboard.php #Produk">Produk</a>
         <a href="dashboard.php">Beranda</a>
       </div>
@@ -74,7 +74,7 @@ else{
             <h4>Pulpen Joyko</h4>
             <h5>Rp 5.000,-</h5>
             <a class="tombol tombol-detail" href="#">Detail</a> 
-            <a class="tombol tombol-beli" href="#">Beli</a>
+            <a class="tombol tombol-beli" alt="Pulpen Joyko" href="cart.php?action=add&id=1">Beli</a>
         </div>
  
         <div class="list-produk">
@@ -82,7 +82,7 @@ else{
             <h4>Gel Pen Joyko</h4>
             <h5>Rp 4.000,-</h5>
             <a class="tombol tombol-detail" href="#">Detail</a> 
-            <a class="tombol tombol-beli" href="#">Beli</a>
+            <a class="tombol tombol-beli" alt="Gel Pen Joyko" href="cart.php?action=add&id=2">Beli</a>
         </div>
  
         <div class="list-produk">
@@ -90,7 +90,7 @@ else{
             <h4>Mechanic Pencil</h4>
             <h5>Rp 5.000,-</h5>
             <a class="tombol tombol-detail" href="#">Detail</a> 
-            <a class="tombol tombol-beli" href="#">Beli</a>
+            <a class="tombol tombol-beli" alt="Mechanic Pencil" href="cart.php?action=add&id=3">Beli</a>
         </div>
 
         <div class="list-produk">
@@ -98,7 +98,7 @@ else{
           <h4>Faber-Castell 2B</h4>
           <h5>Rp 4,000,--</h5>
           <a class="tombol tombol-detail" href="#">Detail</a> 
-          <a class="tombol tombol-beli" href="#">Beli</a>
+          <a class="tombol tombol-beli" alt="Faber-Castell 2B" href="cart.php?action=add&id=4">Beli</a>
         </div>
 
         <div class="list-produk">
@@ -106,7 +106,7 @@ else{
           <h4>Faber-Castell Eraser</h4>
           <h5>Rp 3.000,-</h5>
           <a class="tombol tombol-detail" href="#">Detail</a> 
-          <a class="tombol tombol-beli" href="#">Beli</a>
+          <a class="tombol tombol-beli" alt="Faber-Castell Eraser" href="cart.php?action=add&id=5">Beli</a>
         </div>
  
         <div class="list-produk">
@@ -114,7 +114,7 @@ else{
           <h4>Correction Pen</h4>
           <h5>Rp 5.000,-</h5>
           <a class="tombol tombol-detail" href="#">Detail</a> 
-          <a class="tombol tombol-beli" href="#">Beli</a>
+          <a class="tombol tombol-beli" alt="Correction Pen" href="cart.php?action=add&id=6">Beli</a>
         </div>
 
         <div class="list-produk">
@@ -122,7 +122,7 @@ else{
           <h4>Correction Tape</h4>
           <h5>Rp 5.000,-</h5>
           <a class="tombol tombol-detail" href="#">Detail</a> 
-          <a class="tombol tombol-beli" href="#">Beli</a>
+          <a class="tombol tombol-beli" alt="Correction Tape" href="cart.php?action=add&id=7">Beli</a>
         </div>
 
         <div class="list-produk">
@@ -130,7 +130,7 @@ else{
           <h4>Campus Book</h4>
           <h5>Rp 2.000,-</h5>
           <a class="tombol tombol-detail" href="#">Detail</a> 
-          <a class="tombol tombol-beli" href="#">Beli</a>
+          <a class="tombol tombol-beli" alt="Campus Book" href="cart.php?action=add&id=8">Beli</a>
         </div>
 
         <div class="list-produk">
@@ -138,7 +138,7 @@ else{
           <h4>Plain Paper A4</h4>
           <h5>Rp 45.000,-</h5>
           <a class="tombol tombol-detail" href="#">Detail</a> 
-          <a class="tombol tombol-beli" href="#">Beli</a>
+          <a class="tombol tombol-beli" alt="Plain Paper A4" href="cart.php?action=add&id=9">Beli</a>
         </div>
 
         <div class="list-produk">
@@ -146,7 +146,7 @@ else{
           <h4>Photo Paper a4</h4>
           <h5>Rp 35.000,-</h5>
           <a class="tombol tombol-detail" href="#">Detail</a> 
-          <a class="tombol tombol-beli" href="#">Beli</a>
+          <a class="tombol tombol-beli" alt="Photo Paper a4" href="cart.php?action=add&id=10">Beli</a>
         </div>
       </div>
       <div class="contact-section" id="contact">
