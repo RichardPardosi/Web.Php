@@ -24,6 +24,7 @@ else{
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="js/script.js">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
@@ -45,25 +46,44 @@ else{
     </br>
     </br>
       <main class="content">
-        <section class="hero">
-          <div class="hero-content">
-            <div class="bg-content">
-            <img class="bg" src="assets/promo.png">
-          </div>
-            <h1>TOKO ATK BKM</h1>
-            <br />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, aperiam dolore assumenda velit repellendus recusandae magni consectetur mollitia facere incidunt inventore perspiciatis debitis doloribus ullam minima culpa
-              voluptatem. Repellendus, option.
-            </p>
-            <a href="profile.php" class="action-btn">Profile Toko</a>
-            <marquee>
-              <h2 class="h2">Lengkapi Kebutuhan Alat Tulismu Sekarang!</h2>
-            </marquee>
-            <br /><br />
+        <section class="container2">
+          <div class="slider-wrapper">
+            <div class="slider">
+              <img id="slide-1" src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1719792000&semt=ais_user"
+              alt="3D wallpaper"/>
+              <img id="slide-2" src="https://img.freepik.com/premium-photo/lake-pier-with-mountains-background_1033303-296.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699660800&semt=ais"
+              alt="3D wallpaper"/>
+            </div>
+            <div class="slider-nav">
+              <a href="#slider-1"></a>
+              <a href="#slider-2"></a>
+            </div>
           </div>
         </section>
       </main>
+      <div>
+        <div>
+          <br><br>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <br><br>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <br><br>
+        </div>
+      </div>
+      
+      <div>
+        <div>
+          <br><br>
+        </div>
+      </div>
       <div class="badan" id="Produk">
       
         <h2><center>Katalog Produk</center></h2>
@@ -163,7 +183,6 @@ else{
                         <form action="">
                             <input type="text" placeholder="Nama">
                             <input type="email" placeholder="Email">
-                            <input type="phone" placeholder="Telp" autocomplete="off">
                             <textarea rows="10" placeholder="chat"></textarea>
                             <button>Submit</button>
                         </form>
