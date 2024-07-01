@@ -485,10 +485,9 @@ label{
 }
 
 .left .left-container {
-  height: 93%;
-  width: 95%;
+  height: 500px;
+  width: 500px;
   text-align: center;
-  line-height: 22px;
   background-image: url('assets/logo.png');
 }
 
