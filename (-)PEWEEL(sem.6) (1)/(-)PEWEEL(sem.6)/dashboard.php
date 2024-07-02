@@ -31,6 +31,7 @@ else{
     <title>Web | Toko ATK BKM</title>
   </head>
     <body>
+
       <div class="navbar">
         <img class="logo" src="assets/logo.png">
         <a href="logout.php">Logout</a>
@@ -39,6 +40,7 @@ else{
         <a href="dashboard.php #Produk">Produk</a>
         <a href="dashboard.php">Beranda</a>
       </div>
+
       <div class="main">
         <p>.</p>
       </div>
@@ -61,31 +63,8 @@ else{
           </div>
         </section>
       </main>
-      <div>
-        <div>
-          <br><br>
-        </div>
-      </div>
 
-      <div>
-        <div>
-          <br><br>
-        </div>
-      </div>
-
-      <div>
-        <div>
-          <br><br>
-        </div>
-      </div>
-      
-      <div>
-        <div>
-          <br><br>
-        </div>
-      </div>
       <div class="badan" id="Produk">
-      
         <h2><center>Katalog Produk</center></h2>
         <input type="text" placeholder="Cari Produk..." class="search">
         <button class="button" type="submit" name="tombolcari">Cari</button>
@@ -170,6 +149,7 @@ else{
           <a class="tombol tombol-beli" alt="Photo Paper a4" href="cart.php?action=add&id=10">Beli</a>
         </div>
       </div>
+
       <div class="contact-section" id="contact">
         <div class="contact-container">
             <div class="card-container">
@@ -177,6 +157,7 @@ else{
                     <div class="left-container">
                     </div>
                 </div>
+
                 <div class="right">
                     <div class="right-container">
                         <h2 class="lg-view">Contact us</h2>
@@ -192,6 +173,7 @@ else{
         </div>
     </div>
       <br>
+      
       <footer>
         <div class="footer-content">
             <h3>Web E-Commerce Toko ATK (Alat Tulis Kantor) BKM</h3>
