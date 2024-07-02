@@ -24,7 +24,7 @@ else{
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="js/main.js">
+    <link rel="stylesheet" href="js/main.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
@@ -47,18 +47,31 @@ else{
     </br>
     </br>
     </br>
-      <main class="content">
-      <div class="slider">
-        <img id="img-1" src="assets/1.png" alt="Image 1"/>
-        <img id="img-2" src="assets/2.png" alt="Image 2"/>
-        <img id="img-3" src="assets/1.png" alt="Image 3"/>
-      </div>
-      <div class="navigation-button">
-        <span class="dot active" onclick="changeSlide(0)"></span>
-        <span class="dot" onclick="changeSlide(1)"></span>
-        <span class="dot" onclick="changeSlide(2)"></span>
-      </div>
-      </main>
+
+    <div class="top-wrapper">
+        
+        <div class="content-banner">
+          <div class="banner">
+            <h1>What's New?!</h1>
+          </div> 
+          <div class="wrapper">
+            <div class="wrapper-holder">
+                <div id="slide-1"></div>
+                <div id="slide-2"></div>
+                <div id="slide-3"></div>
+                <div id="slide-4"></div>
+                
+            </div>
+            <div class="button-holder">
+                <a href="#slide-1" class="button"></a>
+                <a href="#slide-2" class="button"></a>
+                <a href="#slide-3" class="button"></a>
+                <a href="#slide-4" class="button"></a>
+      
+            </div>
+          </div>
+        </div>
+    </div>
 
       <div class="badan" id="Produk">
         <h2><center>Katalog Produk</center></h2>
