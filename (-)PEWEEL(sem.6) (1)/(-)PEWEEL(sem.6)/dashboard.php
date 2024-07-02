@@ -24,7 +24,7 @@ else{
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="js/script.js">
+    <link rel="stylesheet" href="js/main.js">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
@@ -48,20 +48,16 @@ else{
     </br>
     </br>
       <main class="content">
-        <section class="container2">
-          <div class="slider-wrapper">
-            <div class="slider">
-              <img id="slide-1" src="assets/1.png"
-              alt="3D wallpaper"/>
-              <img id="slide-2" src="assets/2.png"
-              alt="3D wallpaper"/>
-            </div>
-            <div class="slider-nav">
-              <a href="#slider-1"></a>
-              <a href="#slider-2"></a>
-            </div>
-          </div>
-        </section>
+      <div class="slider">
+        <img id="img-1" src="assets/1.png" alt="Image 1"/>
+        <img id="img-2" src="assets/2.png" alt="Image 2"/>
+        <img id="img-3" src="assets/1.png" alt="Image 3"/>
+      </div>
+      <div class="navigation-button">
+        <span class="dot active" onclick="changeSlide(0)"></span>
+        <span class="dot" onclick="changeSlide(1)"></span>
+        <span class="dot" onclick="changeSlide(2)"></span>
+      </div>
       </main>
 
       <div class="badan" id="Produk">
@@ -173,7 +169,7 @@ else{
         </div>
     </div>
       <br>
-      
+
       <footer>
         <div class="footer-content">
             <h3>Web E-Commerce Toko ATK (Alat Tulis Kantor) BKM</h3>
