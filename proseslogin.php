@@ -2,7 +2,7 @@
 
 session_start(); 
 
-include("koneksi.php"); 
+include("koneksi2.php"); 
 
 $username = $_POST['username']; 
 
@@ -16,7 +16,7 @@ if ($result->num_rows > 0) {
 
  $_SESSION['username'] = $username; 
 
- header("Location: index.php"); 
+ header("Location: index2.php"); 
 
 } else { 
 

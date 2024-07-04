@@ -8,19 +8,33 @@ include "koneksi.php";
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="beranda.css" />
     <title>Web | Keranjang</title>
   </head>
     <body>
-      <div class="navbar">
-        <img class="logo" src="assets/logo.png">
-        <a href="logout.php">Logout</a>
-        <a href="kontak.php">Kontak</a>
-        <a href="keranjang.php">Keranjang</a>
-        <a href="dashboard.php #Produk">Produk</a>
-        <a href="dashboard.php">Beranda</a>
-      </div>
-      <div class="badan2">
+    <header>
+        <div class="container">
+          <div class="header-left">
+            <img class="logo" src="assets/logo.png">
+           
+                
+                <button>
+                    
+                </button>
+            </form>
+          </div>
+          <!-- Tambahkan ikon menu dibawah -->
+          <span class="fa fa-bars menu-icon"></span>
+
+          <div class="header-right">
+            <a href="beranda.php">Beranda</a>
+            <a href="beranda.php #Produk">Produk</a>
+            <a href="cart.php">Keranjang</a>
+            <a href="logout.php"></a>
+          </div>
+        </div>
+      </header>
+      <div class="badan">
         <br>
         <br>
         <h2><center>KeranjangMu!</center></h2>

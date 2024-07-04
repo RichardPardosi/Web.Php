@@ -48,30 +48,6 @@ else{
     </br>
     </br>
 
-    <div class="top-wrapper">
-        
-        <div class="content-banner">
-          <div class="banner">
-            <h1>What's New?!</h1>
-          </div> 
-          <div class="wrapper">
-            <div class="wrapper-holder">
-                <div id="slide-1"></div>
-                <div id="slide-2"></div>
-                <div id="slide-3"></div>
-                <div id="slide-4"></div>
-                
-            </div>
-            <div class="button-holder">
-                <a href="#slide-1" class="button"></a>
-                <a href="#slide-2" class="button"></a>
-                <a href="#slide-3" class="button"></a>
-                <a href="#slide-4" class="button"></a>
-      
-            </div>
-          </div>
-        </div>
-    </div>
 
       <div class="badan" id="Produk">
         <h2><center>Katalog Produk</center></h2>

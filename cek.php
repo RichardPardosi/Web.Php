@@ -12,10 +12,10 @@ if (mysqli_num_rows($query)>0) {
     $array = mysqli_fetch_array($query);
     $_SESSION["username"]=$array["username"];
     echo "<script>alert('Login Berhasil')</script>";
-    echo "<script>window.location='dashboard.php';</script>";
+    echo "<script>window.location='beranda.php';</script>";
 }else{
     echo "<script>alert('Login Gagal')</script>";
-    echo "<script>window.location='index.php';</script>";
+    echo "<script>window.location='index2.php';</script>";
 
 }
     
