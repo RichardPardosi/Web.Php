@@ -64,6 +64,15 @@
  .header-left {
     float: left;
   }
+
+  .header-left p{
+    margin-top: -60px;
+    color: #ccc;
+    font-size: 2rem;
+    margin-left: -85px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
  .logo {
     height: 55px;
     width: 55px;
@@ -209,14 +218,6 @@
   }
   .container #slide-4{
     background-image: url("assets/4.png");
-    background-position: center;
-    background-size: cover;
-    height: 40rem;
-    width: 100rem;
-    background-position: center; 
-  }
-  .container #slide-4{
-    background-image: url("assets/5.png");
     background-position: center;
     background-size: cover;
     height: 40rem;

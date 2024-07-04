@@ -34,6 +34,7 @@ else{
         <div class="container">
           <div class="header-left">
             <img class="logo" src="assets/logo.png">
+            <p>Toko ATK BKM</p>
                 
                 <button>
                     <svg viewBox="0 0 1024 1024">

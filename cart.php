@@ -113,10 +113,10 @@ if (isset($_GET['action']) && $_GET['action'] == 'remove' && isset($_GET['id']) 
             </center>
         </table>
         <br>
-        <a class="tombol tombol-beli" href="dashboard.php #Produk">Continue Shopping</a>
+        <a class="tombol tombol-beli" href="beranda.php #Produk">Continue Shopping</a>
     <?php else: ?>
         <p>Your cart is empty...</p>
-        <a href=></a><a class="tombol tombol-beli" href="dashboard.php #Produk">Go back to shopping</a>
+        <a href=></a><a class="tombol tombol-beli" href="beranda.php #Produk">Go back to shopping</a>
     <?php endif; ?>
     <br><br>
     <br><br>
