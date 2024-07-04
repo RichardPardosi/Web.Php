@@ -194,7 +194,7 @@
     background-position: center;
     background-size: cover;
     height: 20rem;
-    width: 90rem;
+    width: 30rem;
     max-width: 100%;
     background-position: center; 
     justify-content: center;
@@ -267,7 +267,7 @@
     position: relative;
     width: 220px;
     height: 300px;
-    background: linear-gradient(0deg, #a20909 0%, #ffffff 100%);
+    background: linear-gradient(0deg, #efff62 0%, #ffffff 100%);
     border-radius: 20px;
     margin: -10px 20px 0 10px;
     border: 2px solid #000000;
@@ -275,19 +275,21 @@
   .box1 .pitc-1 img{
     display: block;
     width: 200px;
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-left: 100px;
     margin: 11px;
     color: white;
     border-radius: 10px;
     
   }
   .judul-1 a{
-    color: rgb(134, 134, 134);
+    color: rgb(0, 0, 0);
     font-size: 18px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    margin-left: 70px;
+    margin-left: 55px;
+    margin-top: -55px;
     position: absolute;
     letter-spacing: 2px;
     stroke:0.5px #000000;
@@ -296,7 +298,7 @@
     position:absolute;
     width: 220px;
     height: 300px;
-    background: linear-gradient(0deg, #FFF80A 0%, #ffffff 100%);
+    background: linear-gradient(0deg, #efff62 0%, #ffffff 100%);
     border-radius: 20px;
     margin: -300px 20px 0 254px;
     border: 2px solid #000000;
@@ -306,17 +308,18 @@
     display: block;
     width: 230px;
     color: rgb(255, 255, 255);
-    margin-left: -14px;
+    margin-left: -10px;
+    margin-top: 20px;
     border-radius: 10px;
     padding-bottom: 15px;
   }
   .judul-2 a{
-    color: #ff0000;
+    color: #000000;
     font-size: 18px;
     font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    margin-left: 55px;
-    margin-top: -10px;
+    font-weight: 600;
+    margin-left: 80px;
+    margin-top: -60px;
     position: absolute;
     letter-spacing: 2px;
   }
@@ -324,7 +327,7 @@
     position:absolute;
     width: 220px;
     height: 300px;
-    background: linear-gradient(0deg, #000000 0%, #ffffff 100%);
+    background: linear-gradient(0deg, #efff62 0%, #ffffff 100%);
     border-radius: 20px;
     margin: -300px 20px 0 496px;
     border: 2px solid #000000;
@@ -335,15 +338,18 @@
     color: white;
     padding-top: 29px;
     margin: 16px;
+    margin-left: -10px;
+    margin-top: 5px;
     border-radius: 10px;
     padding-bottom: 15px;
   }
   .judul-3 a{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     margin-left: 74px;
+    margin-top: -90px;
     position: absolute;
     letter-spacing: 2px;
   }
@@ -351,7 +357,7 @@
     position:absolute;
     width: 220px;
     height: 300px;
-    background: linear-gradient(0deg, #980303 0%, #000000 100%);
+    background: linear-gradient(0deg, #efff62 0%, #ffffff 100%);
     border-radius: 20px;
     margin: -300px 20px 0 739px;
     border: 2px solid #000000;
@@ -363,16 +369,17 @@
     color: white;
     padding-top: 16px;
     margin: 15px;
+    margin-top: 30px;
     border-radius: 50px;
     padding-bottom: 15px;
   }
   .judul-4 a{
-    color: white;
-    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
     font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    margin-left: 40px;
-    margin-top: -10px;
+    font-weight: 600;
+    margin-left: 35px;
+    margin-top: -60px;
     align-items: end;
     position: absolute;
     letter-spacing: 2px;
@@ -381,7 +388,7 @@
     position:absolute;
     width: 240px;
     height: 300px;
-    background: linear-gradient(0deg, #d01818 0%, #ffffff 100%);
+    background: linear-gradient(0deg, #efff62 0%, #ffffff 100%);
     border-radius: 20px;
     margin: -300px 20px 0 980px;
     border: 2px solid #000000;
@@ -393,22 +400,56 @@
     color: white;
     padding-top: -30px;
     margin: 62px;
-    margin-top: 30px;
+    margin-top: 75px;
     border-radius: 10px;
     padding-bottom: 1px;
   }
   .judul-5 a{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     margin-left: 75px;
-    margin-top: -35px;
+    margin-top: -80px;
     position: absolute;
     letter-spacing: 2px;
   }
 /* end recommned list */
 
+/* Search Bar Start */
+.cari{
+    display: flex;
+    margin-top: -45px;
+    padding: 7px;
+    display: flex;
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    margin-top: -45px;
+    margin-right: 76%;
+}
+
+.buttoncari{
+    text-decoration: none;
+    border-radius: 7px;
+    padding: 7px;
+    display: flex;
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    margin-top: -45px;
+    margin-right: 76%;
+    background-color: rgb(214, 214, 214);
+}
+
+.buttoncari img{
+    background-image: url('assets/src.png');
+    width: 25px;
+    margin-left: -1px;
+}
+/* Search Bar End */
 
 /* Produk Start */
 .badan
@@ -524,7 +565,7 @@ footer {
   color: #fff;
   padding: 20px 0;
   text-align: center;
-  top: 220px;
+  top: 235px;
 }
 
 .footer-content {

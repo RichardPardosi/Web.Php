@@ -88,51 +88,51 @@ else{
 
           <div class="box1">
             <div class="pitc-1">
-                <a href="#"><img src="sourcepitc/INNO-logo-removebg-preview (1).png" alt=""></a>
+                <a href="#"><img src="assets/k1.png" alt=""></a>
                 <br>
             </div>
             <div class="judul-1">
-              <a href="#">INNO64</a>
+              <a href="#">Alat Tulis</a>
             </div>
           </div>
 
           <div class="box2">
             <div class="pitc-2">
-                <a href="#"><img src="sourcepitc/hot-wheels4951-removebg-preview.png" alt=""></a>
+                <a href="#"><img src="assets/k2.png" alt=""></a>
                 <br>
             </div>
             <div class="judul-2">
-              <a href="#">HotWheels</a>
+              <a href="#">Buku</a>
             </div>
           </div>
 
           <div class="box3">
             <div class="pitc-3">
-                <a href="#"><img src="sourcepitc/Screenshot_2024-05-19_194935-removebg-preview.png" alt=""></a>
+                <a href="#"><img src="assets/k3.png" alt=""></a>
                 <br>
             </div>
             <div class="judul-3">
-              <a href="#">Mini GT</a>
+              <a href="#">Kertas</a>
             </div>
           </div>
 
           <div class="box4">
             <div class="pitc-4">
-                <a href="#"><img src="sourcepitc/1650010622_90447.jpg" alt=""></a>
+                <a href="#"><img src="assets/k4.png" alt=""></a>
                 <br>
             </div>
             <div class="judul-4">
-              <a href="#">Mini GT x KAIDO</a>
+              <a href="#">Tempat Pensil</a>
             </div>
           </div>
 
           <div class="box5">
             <div class="pitc-5">
-                <a href="#"><img src="sourcepitc/poprace.png" alt=""></a>
+                <a href="#"><img src="assets/k5.png" alt=""></a>
                 <br>
             </div>
             <div class="judul-5">
-              <a href="#">Pop Race</a>
+              <a href="#">Lainnya</a>
             </div>
           </div>
 
@@ -143,16 +143,16 @@ else{
           <!--Produk Start-->
           <div class="badan" id="Produk">
 
-            <h2><center>Katalog Produk</center></h2>
+            <h2><center>Harga Promo</center></h2>
 
-            <input type="text" placeholder="Cari Produk..." class="search">
+            <input type="text" placeholder="Cari Produk..." name="input" class="cari">
 
-            <button class="button" type="submit" name="tombolcari">Cari</button>
+            <button class="buttoncari" type="submit" name="tombolcari"><img src="assets/src.png" class="img"></button>
             <br>
             <div class="list-produk">
                 <img src="assets/joyko.jpg">
                 <h4>Pulpen Joyko</h4>
-                <h5>Rp 5.000,-</h5>
+                <h5><s>Rp 8.000,-</s>  Rp 5.000,-</h5>
                 <a class="tombol tombol-detail" href="detail.php #p1">Detail</a> 
                 <a class="tombol tombol-beli" alt="Pulpen Joyko" href="cart.php?action=add&id=1">Beli</a>
             </div>
@@ -160,7 +160,7 @@ else{
             <div class="list-produk">
                 <img src="assets/gp.jpg">
                 <h4>Gel Pen Joyko</h4>
-                <h5>Rp 4.000,-</h5>
+                <h5><s>Rp 4.000,-</s>  Rp 2.500,-</h5>
                 <a class="tombol tombol-detail" href="detail.php #p2">Detail</a> 
                 <a class="tombol tombol-beli" alt="Gel Pen Joyko" href="cart.php?action=add&id=2">Beli</a>
             </div>
