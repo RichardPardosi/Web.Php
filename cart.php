@@ -70,7 +70,7 @@ if (isset($_GET['action']) && $_GET['action'] == 'remove' && isset($_GET['id']) 
                 </button>
             </form>
           </div>
-          <!-- Tambahkan ikon menu dibawah -->
+          <!-- Tambahkan ikon menu -->
           <span class="fa fa-bars menu-icon"></span>
 
           <div class="header-right">
