@@ -199,7 +199,7 @@
     max-width: 1270px;
   }
   .container #slide-3{
-    background-image: url("assets/4.png");
+    background-image: url("assets/3.png");
     background-position: center;
     background-size: cover;
     height: 40rem;
@@ -208,7 +208,7 @@
     background-position: center; 
   }
   .container #slide-4{
-    background-image: url("assets/5.png");
+    background-image: url("assets/4.png");
     background-position: center;
     background-size: cover;
     height: 40rem;
@@ -216,7 +216,7 @@
     background-position: center; 
   }
   .container #slide-4{
-    background-image: url("assets/6.png");
+    background-image: url("assets/5.png");
     background-position: center;
     background-size: cover;
     height: 40rem;

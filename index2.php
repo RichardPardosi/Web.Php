@@ -44,6 +44,7 @@ include "koneksi2.php";
 						<div class="card-body">
 							<div class="mb-5 text-center">
 								<img src="assets/logo.png" class="img-fluid" width="70" alt="logo ahmad syarifudin" title="Toko ATK BKM">
+								<h7>Toko ATK BKM</h7>
 								<h2 class="h5 mt-5">Login</h2>
 							</div>
 							<form method="POST" action="cek.php">
