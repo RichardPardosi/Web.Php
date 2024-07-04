@@ -47,26 +47,46 @@ if (isset($_GET['action']) && $_GET['action'] == 'remove' && isset($_GET['id']) 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="beranda.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
 </head>
 <body>
-    <div class="navbar">
-        <img class="logo" src="assets/logo.png">
-        <a href="logout.php">Logout</a>
-        <a href="dashboard.php #contact">Kontak</a>
-        <a href="cart.php">Keranjang</a>
-        <a href="dashboard.php #Produk">Produk</a>
-        <a href="dashboard.php">Beranda</a>
-      </div>
+<header>
+        <div class="container">
+          <div class="header-left">
+            <img class="logo" src="assets/logo.png">
+           
+                
+                <button>
+                    <svg viewBox="0 0 1024 1024">
+                        <path class="path1" q="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140
+                        .706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.
+                        529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.
+                        455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z">
+                        </path>
+                    </svg>
+                </button>
+            </form>
+          </div>
+          <!-- Tambahkan ikon menu dibawah -->
+          <span class="fa fa-bars menu-icon"></span>
+
+          <div class="header-right">
+            <a href="beranda.php">Beranda</a>
+            <a href="beranda.php #Produk">Produk</a>
+            <a href="cart.php">Keranjang</a>
+            <a href="logout.php">Logout</a>
+          </div>
+        </div>
+      </header>
       <br><br>
       <br><br>
-    <h1>Your Cart</h1>
+    <h1><center>Your Cart</center></h1>
     <?php if (!empty($_SESSION['cart'])): ?>
         <table border="1" cellpadding="10" cellspacing="0">
+            <center>
             <tr>
                 <th>Name</th>
                 <th>Price</th>
@@ -90,6 +110,7 @@ if (isset($_GET['action']) && $_GET['action'] == 'remove' && isset($_GET['id']) 
                 <td><?php echo $total; ?></td>
                 <td></td>
             </tr>
+            </center>
         </table>
         <br>
         <a class="tombol tombol-beli" href="dashboard.php #Produk">Continue Shopping</a>
@@ -100,7 +121,7 @@ if (isset($_GET['action']) && $_GET['action'] == 'remove' && isset($_GET['id']) 
     <br><br>
     <br><br>
     <footer>
-        <div class="footer-content">
+        <div class="footercart-content">
             <h3>Web E-Commerce Toko ATK (Alat Tulis Kantor) BKM</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <br>
@@ -112,11 +133,9 @@ if (isset($_GET['action']) && $_GET['action'] == 'remove' && isset($_GET['id']) 
                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
             </ul>
         </div>
-        <div class="footer-bottom">
+        <div class="footercart-bottom">
             <p>&copy; 2024.kelompokpwl | Dibuat dengan <span>❤</span> oleh Tim Kami</p>
         </div>
         </footer>
-      </div>
-    </div>
 </body>
 </html>

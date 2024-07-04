@@ -34,7 +34,6 @@ else{
         <div class="container">
           <div class="header-left">
             <img class="logo" src="assets/logo.png">
-           
                 
                 <button>
                     <svg viewBox="0 0 1024 1024">
@@ -54,7 +53,7 @@ else{
             <a href="beranda.php">Beranda</a>
             <a href="beranda.php #Produk">Produk</a>
             <a href="cart.php">Keranjang</a>
-            <a href="logout.php"></a>
+            <a href="logout.php">Logout</a>
           </div>
         </div>
       </header>
@@ -233,7 +232,7 @@ else{
           <!--Produk End-->
 
           <!--Footer Start-->
-            <footer>
+            <footer class="footercart">
               <div class="footer-content">
                   <h3>Web E-Commerce Toko ATK (Alat Tulis Kantor) BKM</h3>
                   <p>Perumahan Bukit KayuManis, RT 05/12, Kec. Tanah Sereal, kel. Kayumanis, Kota Bogor, Jawa Barat</p>
