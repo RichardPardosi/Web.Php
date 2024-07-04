@@ -153,7 +153,7 @@ else{
                 <img src="assets/joyko.jpg">
                 <h4>Pulpen Joyko</h4>
                 <h5>Rp 5.000,-</h5>
-                <a class="tombol tombol-detail" href="#">Detail</a> 
+                <a class="tombol tombol-detail" href="detail.php #p1">Detail</a> 
                 <a class="tombol tombol-beli" alt="Pulpen Joyko" href="cart.php?action=add&id=1">Beli</a>
             </div>
     
@@ -161,7 +161,7 @@ else{
                 <img src="assets/gp.jpg">
                 <h4>Gel Pen Joyko</h4>
                 <h5>Rp 4.000,-</h5>
-                <a class="tombol tombol-detail" href="#">Detail</a> 
+                <a class="tombol tombol-detail" href="detail.php #p2">Detail</a> 
                 <a class="tombol tombol-beli" alt="Gel Pen Joyko" href="cart.php?action=add&id=2">Beli</a>
             </div>
     
@@ -169,7 +169,7 @@ else{
                 <img src="assets/pm.jpg">
                 <h4>Mechanic Pencil</h4>
                 <h5>Rp 5.000,-</h5>
-                <a class="tombol tombol-detail" href="#">Detail</a> 
+                <a class="tombol tombol-detail" href="detail.php #p3">Detail</a> 
                 <a class="tombol tombol-beli" alt="Mechanic Pencil" href="cart.php?action=add&id=3">Beli</a>
             </div>
 
@@ -177,7 +177,7 @@ else{
               <img src="assets/fc.png">
               <h4>Faber-Castell 2B</h4>
               <h5>Rp 4,000,--</h5>
-              <a class="tombol tombol-detail" href="#">Detail</a> 
+              <a class="tombol tombol-detail" href="detail.php #p4">Detail</a> 
               <a class="tombol tombol-beli" alt="Faber-Castell 2B" href="cart.php?action=add&id=4">Beli</a>
             </div>
 
@@ -185,7 +185,7 @@ else{
               <img src="assets/fcp.png">
               <h4>Faber-Castell Eraser</h4>
               <h5>Rp 3.000,-</h5>
-              <a class="tombol tombol-detail" href="#">Detail</a> 
+              <a class="tombol tombol-detail" href="detail.php #p5">Detail</a> 
               <a class="tombol tombol-beli" alt="Faber-Castell Eraser" href="cart.php?action=add&id=5">Beli</a>
             </div>
     
@@ -193,7 +193,7 @@ else{
               <img src="assets/tp.jpeg">
               <h4>Correction Pen</h4>
               <h5>Rp 5.000,-</h5>
-              <a class="tombol tombol-detail" href="#">Detail</a> 
+              <a class="tombol tombol-detail" href="detail.php #p6">Detail</a> 
               <a class="tombol tombol-beli" alt="Correction Pen" href="cart.php?action=add&id=6">Beli</a>
             </div>
 
@@ -201,7 +201,7 @@ else{
               <img src="assets/ct.jpg">
               <h4>Correction Tape</h4>
               <h5>Rp 5.000,-</h5>
-              <a class="tombol tombol-detail" href="#">Detail</a> 
+              <a class="tombol tombol-detail" href="detail.php #p7">Detail</a> 
               <a class="tombol tombol-beli" alt="Correction Tape" href="cart.php?action=add&id=7">Beli</a>
             </div>
 
@@ -209,7 +209,7 @@ else{
               <img src="assets/bk.jpeg">
               <h4>Campus Book</h4>
               <h5>Rp 2.000,-</h5>
-              <a class="tombol tombol-detail" href="#">Detail</a> 
+              <a class="tombol tombol-detail" href="detail.php #p8">Detail</a> 
               <a class="tombol tombol-beli" alt="Campus Book" href="cart.php?action=add&id=8">Beli</a>
             </div>
 
@@ -217,7 +217,7 @@ else{
               <img src="assets/a4.jpg">
               <h4>Plain Paper A4</h4>
               <h5>Rp 45.000,-</h5>
-              <a class="tombol tombol-detail" href="#">Detail</a> 
+              <a class="tombol tombol-detail" href="detail.php #p9">Detail</a> 
               <a class="tombol tombol-beli" alt="Plain Paper A4" href="cart.php?action=add&id=9">Beli</a>
             </div>
 
@@ -225,12 +225,13 @@ else{
               <img src="assets/kp.jpg">
               <h4>Photo Paper a4</h4>
               <h5>Rp 35.000,-</h5>
-              <a class="tombol tombol-detail" href="#">Detail</a> 
+              <a class="tombol tombol-detail" href="detail.php #p10">Detail</a> 
               <a class="tombol tombol-beli" alt="Photo Paper a4" href="cart.php?action=add&id=10">Beli</a>
             </div>
           </div>
 
           <!--Produk End-->
+          
 
           <!--Footer Start-->
             <footer class="footercart">
@@ -254,8 +255,5 @@ else{
             <!--Footer End-->
             </div>
           </div>
-
-
-          
 </body>
 </html>
